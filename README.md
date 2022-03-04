@@ -1,2 +1,2 @@
-# repository.libka
-Libka Repository
+# repository.kpl-addons
+Official KPL Addons Repository
