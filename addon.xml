@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.kpl-addons" name="KPL Addons Core Repository" version="0.1" provider-name="kpl-addons-team">
+<addon id="repository.kpl-addons" name="KPL Addons Core Repository" version="0.2" provider-name="kpl-addons-team">
 	<extension point="xbmc.addon.repository" name="KPL Addons Core Repository">
 		<dir minversion="18.9.701">
 			<info compressed="false">https://zip.kodipl.net/19/addons.xml</info>
@@ -10,6 +10,16 @@
 			<info compressed="false">https://zip.kodipl.net/19/addons.xml</info>
 			<checksum>https://zip.kodipl.net/19/addons.xml.md5</checksum>
 			<datadir zip="true">https://zip.kodipl.net/19/</datadir>
+		</dir>
+		<dir minversion="18.9.701">
+			<info compressed="false">https://zip.libka.pl/19/addons.xml</info>
+			<checksum>https://zip.libka.pl/19/addons.xml.md5</checksum>
+			<datadir zip="true">https://zip.libka.pl/19/</datadir>
+		</dir>
+		<dir minversion="19.9">
+			<info compressed="false">https://zip.libka.pl/19/addons.xml</info>
+			<checksum>https://zip.libka.pl/19/addons.xml.md5</checksum>
+			<datadir zip="true">https://zip.libka.pl/19/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
