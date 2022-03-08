@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.kpl-addons" name="KPL Addons Core Repository" version="0.3" provider-name="kpl-addons-team">
-	<extension point="xbmc.addon.repository" name="KPL Addons Core Repository">
+<addon id="repository.kpl-addons-beta" name="KPL Addons Core Repository (BETA)" version="0.1" provider-name="kpl-addons-team">
+	<extension point="xbmc.addon.repository" name="KPL Addons Core Repository (BETA)">
 		<dir minversion="18.9.701">
-			<info compressed="false">https://zip.kodipl.net/dists/main/19/addons.xml</info>
-			<checksum>https://zip.kodipl.net/dists/main/19/addons.xml.md5</checksum>
+			<info compressed="false">https://zip.kodipl.net/dists/beta/19/addons.xml</info>
+			<checksum>https://zip.kodipl.net/dists/beta/19/addons.xml.md5</checksum>
 			<datadir zip="true">https://zip.kodipl.net/pool/19/</datadir>
 		</dir>
 		<dir minversion="19.9">
-			<info compressed="false">https://zip.kodipl.net/dists/main/20/addons.xml</info>
-			<checksum>https://zip.kodipl.net/dists/main/20/addons.xml.md5</checksum>
+			<info compressed="false">https://zip.kodipl.net/dists/beta/20/addons.xml</info>
+			<checksum>https://zip.kodipl.net/dists/beta/20/addons.xml.md5</checksum>
 			<datadir zip="true">https://zip.kodipl.net/pool/20/</datadir>
 		</dir>
 		<dir minversion="18.9.701">
-			<info compressed="false">https://zip.libka.pl/dists/main/19/addons.xml</info>
-			<checksum>https://zip.libka.pl/dists/main/19/addons.xml.md5</checksum>
+			<info compressed="false">https://zip.libka.pl/dists/beta/19/addons.xml</info>
+			<checksum>https://zip.libka.pl/dists/beta/19/addons.xml.md5</checksum>
 			<datadir zip="true">https://zip.libka.pl/pool/19/</datadir>
 		</dir>
 		<dir minversion="19.9">
-			<info compressed="false">https://zip.libka.pl/dists/main/20/addons.xml</info>
-			<checksum>https://zip.libka.pl/dists/main/20/addons.xml.md5</checksum>
+			<info compressed="false">https://zip.libka.pl/dists/beta/20/addons.xml</info>
+			<checksum>https://zip.libka.pl/dists/beta/20/addons.xml.md5</checksum>
 			<datadir zip="true">https://zip.libka.pl/pool/20/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>KPL Addons Core Repository</summary>
-		<summary lang="pl_PL">Repozytorium KPL Addons</summary>
+		<summary>KPL Addons Core Beta Repository</summary>
+		<summary lang="pl_PL">Beta repozytorium KPL Addons</summary>
 		<description>KPL Addons ...</description>
 		<description lang="pl_PL">Wtyczki KPL Addons</description>
 		<platform>all</platform>
+		<source>https://github.com/kpl-addons/repository.kpl-addons-beta</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
